@@ -1,0 +1,142 @@
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #fff;
+    color: #216f6f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dba145; 
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+header h1 {
+    margin-left: 1%;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20px;
+    background-color: #fff;
+    color: #00703c;
+    padding: 25px;
+    border-radius: 20px;
+   
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 12%;
+    margin-left: 1%;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: 100%;
+    flex: 1;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px;
+    background-color: #f5a85c;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+
+.image img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    margin: 20px 0;
+    left: 100px;
+    flex:1;
+}
+.image p {
+    margin: auto;
+    font-weight: bold;
+    
+    color:  #0d1785;
+    text-decoration: solid;
+    text-align: center;
+    border-radius: 10px;
+}
+.yt-video {
+   display: flex;
+   padding: 20px;
+    position: relative;
+    background-color: #3b88d5;
+    border-radius: 20px;
+    justify-content:space-around
+}
+.iframes {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 20px;
+    left: 250px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.yt-video img{
+    background-color: aliceblue;
+    max-width: 25%;
+    border-radius: 20px;
+    margin: 20px 0;
+    left: 10px;
+    flex:1;
+    padding-left: 10px;
+
+}
+
+.content {
+    flex: 2;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #dfddda;
+}
+.quote {
+    background-color: #4b9863;
+    border-radius: 15px;
+    color: #fff;
+    border-left: 10px solid #51b44c;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #00703c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+} 
+footer a:hover {
+    color: #dba145;
+}
